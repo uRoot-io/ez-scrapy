@@ -3,6 +3,7 @@ from scraper.items import ScraperItem
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
 
+
 class MySpider(CrawlSpider):
     name = 'rct-crawler'
     allowed_domains = ['toutsurlisolation.com']
